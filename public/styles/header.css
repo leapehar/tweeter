@@ -1,0 +1,35 @@
+body {
+  position: relative;
+}
+
+header {
+  height: 400px;
+  background-color: rgb(255, 162, 0);
+
+  background-image: url("https://www.transparenttextures.com/patterns/rice-paper-3.png");
+ 
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+   border: 1px solid red; 
+
+  /* position styles */
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  z-index: -5;
+
+}
+
+header img {
+ height: 200px;
+
+}
+
+header h2 {
+  margin: 0;
+  font-size: 35px;
+}
+
